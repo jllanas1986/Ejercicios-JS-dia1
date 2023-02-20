@@ -192,8 +192,8 @@ let impresora = {
         azul: 'alto'
     },
 };
-let nivelesTinta = impresora.tinta;
-console.log('los niveles de tinta son ' + nivelesTinta);
+let nivelesTinta = [impresora.tinta.rojo, impresora.tinta.verde, impresora.tinta.azul];
+console.log('los niveles de tinta de los colores rojo, verde y azul son ' + nivelesTinta + ' respectivamente');
 
 //Crea un objeto de nombre Movil con la propiedad especificaciones obtén el valor de la propiedad con ["especificaciones"] guardándolo en la variable especificaciones y muestrala por consola
 let movil = {
