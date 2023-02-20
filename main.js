@@ -141,7 +141,7 @@ let persona = {
 };
 
 //Muestra por consola el nombre de la variable Persona
-console.log(persona);
+console.log(persona.nombre);
 
 //Muestra por consola el lenguaje javascript de la variable FullStackDeveloper
 console.log(FullStackDeveloper['array lenguajes'][0]);
